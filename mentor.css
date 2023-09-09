@@ -1,0 +1,49 @@
+:root{
+    --green:#5fcf80;
+ --gray: #f6f7f6;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    padding: 0 5rem;
+}
+
+.navHero{
+    background:linear-gradient(
+        rgba(48, 48, 48, 0.1),
+        rgba(48, 47, 47, 0.1)), url(./images/GIT\ hero-bg.jpg) fixed center center;
+    background-size: cover;
+    height: 80vh;
+    background-color: rgba(37, 37, 37, 0.533);
+    background-blend-mode: overlay;
+}
+
+/* NAVBAR STYLING STARTS HERE */
+
+/* NAVBAR STYLING ENDS HERE */
+
+
+/* HERO STYLING STARTS HERE */
+
+/* HERO STYLING ENDS HERE */
+
+
+/* ABOUT STYLING STARTS HERE */
+
+/* ABOUT STYLING ENDS HERE */
+
+
+/* COUNT SECTION STARTS HERE */
+
+/* COUNT SECTION ENDS HERE */
+
+
+/* DEVELOPER SECTION STARTS HERE */
+
+/* DEVELOPER SECTION ENDS HERE */
