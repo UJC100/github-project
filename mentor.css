@@ -45,5 +45,118 @@
 
 
 /* DEVELOPER SECTION STARTS HERE */
+.devDiv{
+  display: grid;
+  grid-template-columns: auto auto auto;
+    gap: 20px;
+    margin: 4rem 0rem;
+}
 
+.devDiv span img{
+ width: 100%;
+  
+} 
+
+.chima{
+  height: 355px;
+}
+.nathan{
+  height: 355px;
+}
+
+.oto{
+  height: 355px;
+}
+
+.devDiv span{
+  border: 1px solid rgba(128, 128, 128, 0.37);
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  
+} 
+
+.devDiv span:hover{
+ transform: translateY(10px);
+}
+
+.devText{
+  padding: 0rem 1rem;
+}
+
+.devText h4{
+  padding-top: 1rem;
+}
+
+.devText :nth-child(2){
+  padding-bottom: 1rem;
+    font-size: 11px;
+    font-style: italic;
+}
+
+.devText :nth-child(3){
+    font-style: italic;
+    opacity: .7;
+    font-size: 15px;
+}
+
+.iconBrand{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: .5rem 0rem;
+} 
+
+.iconBrand i{
+  font-size: 20px;
+  opacity: .5;
+}
+
+.devImgs{
+    /* border: 2px solid blue; */
+    /* width: 50%; */
+}
+
+@media screen and (max-width: 1300px) {
+.devDiv{
+  display: grid;
+  grid-template-columns: auto auto;
+    gap: 20px;
+    margin: 4rem 0rem;
+}
+
+.chima{
+  height: 445px;
+}
+
+.nathan{
+  height: 445px;
+}
+
+.oto{
+  height: 445px;
+}
+}
+
+@media screen and (max-width: 990px) {
+.devDiv{
+  display: grid;
+  grid-template-columns: auto;
+    gap: 20px;
+    margin: 4rem 6rem;
+}
+
+.devDiv span:hover{
+ transform: translateY(-10px);
+}
+}
+
+@media screen and (max-width: 700px) {
+.devDiv{
+  display: grid;
+  grid-template-columns: auto;
+    gap: 20px;
+    margin: 4rem 0rem;
+}
+
+}
 /* DEVELOPER SECTION ENDS HERE */
