@@ -110,11 +110,11 @@
   font-size: 20px;
   opacity: .5;
 }
-
+/* 
 .devImgs{
-    /* border: 2px solid blue; */
-    /* width: 50%; */
-}
+    border: 2px solid blue;
+    width: 50%;
+} */
 
 @media screen and (max-width: 1300px) {
 .devDiv{
