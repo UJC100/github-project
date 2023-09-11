@@ -30,7 +30,48 @@
 
 
 /* HERO STYLING STARTS HERE */
-
+.Hero2{
+  padding-top: 13rem;
+  padding-left: 10rem;
+  
+  }
+  .Hero2 h1{
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 56px;
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+  }
+  
+  .Hero2 h3{
+      color: #eee;
+      margin: 10px 0 0 0;
+      font-size: 24px;
+      font-weight: 300;
+  }
+  .Hero2 button:hover{
+      background: var(--green);
+      border: 2px solid var(--green);
+  }
+  .Hero2 button{
+      position: relative;
+      font-family: "Raleway", sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 10px 35px;
+      border-radius: 50px;
+      transition: 0.5s;
+      margin-top: 30px;
+      border: 2px solid #fff;
+      color: #fff;
+      background: transparent;
+      cursor: pointer;
+      overflow: hidden;
+      text-transform: uppercase;
+  }
+  
 /* HERO STYLING ENDS HERE */
 
 
