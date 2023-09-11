@@ -36,6 +36,32 @@
 
 /* ABOUT STYLING STARTS HERE */
 
+.aboutsect{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about h3{
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.firstp{
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+ ul li{
+  line-height: 1;
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
+.aboutimg{
+  width: 100%;  
+}
+
 /* ABOUT STYLING ENDS HERE */
 
 
