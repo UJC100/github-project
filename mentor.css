@@ -155,7 +155,7 @@
   .Hero2 h1{
       font-size: 48px;
       font-weight: 700;
-      line-height: 56px;
+      /* line-height: 56px; */
       color: #fff;
       font-family: "Poppins", sans-serif;
   }
@@ -188,6 +188,40 @@
       overflow: hidden;
       text-transform: uppercase;
   }
+
+  @media screen and (max-width:990px) {
+      .container{
+    padding: 0 3rem;
+}
+
+.navHero{
+    background:linear-gradient(
+        rgba(48, 48, 48, 0.1),
+        rgba(48, 47, 47, 0.1)), url(./images/GIT\ hero-bg.jpg) top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(37, 37, 37, 0.533);
+    background-blend-mode: overlay;
+}
+
+.Hero2{
+  padding-top: 17rem; 
+  }
+
+.Hero2 h1{
+  font-size: 35px;
+  }
+
+.Hero2 h3{
+  font-size: 18px;
+  }
+  
+.Hero2 button{
+  padding: 10px 10px;
+  }
+  }
   
 /* HERO STYLING ENDS HERE */
 
@@ -207,30 +241,22 @@
     display: flex;
     justify-content: space-between;
     margin: 0 5rem;
-}
-
-div div {
-    /* border: 1px solid black; */
-    line-height: 1px;
     text-align: center;
-    /* display: flex; */
 }
 
 
-h1{
+.wrapper h1{
     color: #5fcf80;
     font-size: 45px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 15px;
+    margin: 15px 0px;
 }
 
-p{
-    
+.wrapper p{
+    opacity: .9;
     font-size: 15px;
-    font-weight: 400;
-    /* position:absolute; */
-    /* margin-top: -40px; */
+    font-weight: 500;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -331,14 +357,6 @@ p{
 }
 
 @media screen and (max-width: 990px) {
-  .container{
-    padding: 0 3rem;
-}
-
-.Hero2{
-  padding-top: 9rem; 
-  text-align: center;
-  }
 
 .devDiv{
   display: grid;
