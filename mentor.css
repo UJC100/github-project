@@ -232,13 +232,18 @@
   display: flex;
   justify-content: space-between; 
   gap: 40px;
+  margin: 1rem 0rem 4rem 0rem;
+}
+
+.about{
+font-size: 15.5px;
 }
 
 .about h3{
   margin-top: 50px;
   margin-bottom: 30px;
   font-size: 27px;
-  opacity: .8;
+  opacity: .9;
 }
 
 .firstp{
@@ -266,8 +271,8 @@
 }
 
 .aboutimg{
-  width:100%;
-  margin-top: 50px; 
+  width:550px;
+  margin-top: 60px; 
    
 }
 
