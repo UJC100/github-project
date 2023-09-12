@@ -25,6 +25,168 @@
 }
 
 /* NAVBAR STYLING STARTS HERE */
+.nav-bar{
+  height: 4rem;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+}
+
+.father{
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 0.8rem;
+}
+.mentor{
+  text-decoration-line: none;
+  color: #5fcf80;
+  font-weight: bolder;
+  font-size: 1.6rem;
+}
+
+
+.a-tags{
+  text-decoration-line: none;
+  margin-left: 2rem;
+  color: black;
+  font-size: small;
+  font-weight: normal;
+}
+
+.a-tags:hover{
+  color: #5fcf80;
+}
+
+#a-tags{
+  color: #5fcf80;
+  text-decoration-line: none; 
+}
+
+.gaping{
+ padding-left: 25rem; 
+ display: flex;
+ align-items: center;
+}
+
+.button{
+  height: 2rem;  
+  width: 7rem;
+  background-color: #5fcf80;
+  border: #5fcf80;
+  color: white;
+  border-radius: 3rem;
+  /* padding-bottom: 1rem; */
+}
+
+.button1{
+  padding-left: 2rem;
+}
+
+.span-h{
+  width: 25px;
+  height: 5px;
+  background-color: black;
+  /* border: 3px solid red; */
+}
+
+.span-m{
+  width: 25px;
+  height: 5px;
+  background-color: black;
+  /* border: 3px solid red; */
+}
+
+.span-p{
+  width: 25px;
+  height: 5px;
+  background-color: black;
+  /* border: 3px solid red; */
+
+}
+
+.ham-gap{
+  gap: 3px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  display: none;
+}
+
+@media (max-width:1296px) {
+  .gaping{
+    padding-left: 10rem; 
+    display: flex;
+    align-items: center;
+   }
+}
+
+@media (max-width:1460px) {
+  .gaping{
+    padding-left: 10rem; 
+    display: flex;
+    align-items: center;
+   }
+}
+
+@media (max-width:1219px) {
+  .ham-gap{
+    gap: 3px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    margin-left: 40rem; 
+  }
+
+  .gaping{
+    /* padding-left: 20rem; 
+    display: flex;
+    align-items: center; */
+    display: none;
+
+   }
+}
+
+@media (max-width:780px) {
+  .ham-gap{
+    gap: 3px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    margin-left: 25rem; 
+  }
+}
+
+@media (max-width:642px) {
+  .ham-gap{
+    gap: 3px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    margin-left: 15rem; 
+  }
+}
+
+@media (max-width:639px) {
+  .ham-gap{
+    gap: 3px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    margin-left: 10rem; 
+  }
+}
+
+@media (max-width:350px) {
+  .ham-gap{
+    gap: 3px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    margin-left: 3rem; 
+  }
+}
 
 /* NAVBAR STYLING ENDS HERE */
 
