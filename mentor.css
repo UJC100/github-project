@@ -194,10 +194,45 @@
 
 /* ABOUT STYLING STARTS HERE */
 
+
 /* ABOUT STYLING ENDS HERE */
 
 
 /* COUNT SECTION STARTS HERE */
+.mainWrapper{
+    background-color:#f6f7f6; 
+    padding: 33px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5rem;
+}
+
+div div {
+    /* border: 1px solid black; */
+    line-height: 1px;
+    text-align: center;
+    /* display: flex; */
+}
+
+
+h1{
+    color: #5fcf80;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 15px;
+}
+
+p{
+    
+    font-size: 15px;
+    font-weight: 400;
+    /* position:absolute; */
+    /* margin-top: -40px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 /* COUNT SECTION ENDS HERE */
 
