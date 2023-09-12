@@ -289,6 +289,11 @@ font-size: 15.5px;
   font-size: 25px;
 }
 
+.aboutimg{
+  width:100%;
+  margin-top: 60px; 
+   
+}
 }
 
 /* ABOUT STYLING ENDS HERE */
