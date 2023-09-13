@@ -327,6 +327,21 @@ font-size: 15.5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+@media screen and (max-width:990px) {
+  .wrapper{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0rem 10rem;
+    text-align: center;
+}
+}
+
+@media screen and (max-width:650px) {
+  .wrapper{
+    margin: 0rem 0rem;
+}
+}
+
 /* COUNT SECTION ENDS HERE */
 
 
