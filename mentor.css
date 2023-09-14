@@ -355,6 +355,57 @@ font-size: 15.5px;
 
 /* BOXES SECTION STARTS HERE */
 
+.generaldiv{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+   align-items: center;
+   /* border: 1px solid red; */
+   margin: 3rem 0rem;
+   gap: 30px;
+}
+.first{
+   /* border: 1px solid blue; */
+
+}
+.generaldiv .flex{
+   display: flex;
+   width: 100%;
+   gap: 10px;   
+   align-items: center;
+   border: 1px solid rgba(0, 0, 0, 0.187);
+   padding: 1rem .5rem;
+   margin: 1rem 0rem;
+   transition: all .5s ease-in-out;
+}
+
+.generaldiv .flex:hover{
+   cursor: pointer;
+   border: 1px solid var(--green);
+   color: var(--green);
+}
+
+.sharp{
+   font-size: 1.5rem;
+}
+
+@media screen and (max-width:1000px) {
+   .generaldiv{
+       display: grid;
+       grid-template-columns: auto auto;
+       /* border: 1px solid red; */
+       padding: 0rem 5rem;
+   }
+}
+
+@media screen and (max-width:700px) {
+   .generaldiv{
+       display: grid;
+       grid-template-columns: auto ;
+       /* border: 1px solid red; */
+       padding: 0rem 5rem;
+   }
+}
+
 /* BOXES SECTION ENDS HERE */
 
 
