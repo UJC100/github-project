@@ -351,6 +351,247 @@ font-size: 15.5px;
 
 /* CARDS SECTION STARTS HERE */
 
+.box-1{
+  height: 25rem;
+  width: 22rem;
+  border-radius: 5px;
+  background-color: #5fcf80;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.box-1-h1{
+  font-weight: bolder;
+  font-size: 1.8rem;
+  color: white;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.box-1-p{
+  text-align: center;
+  color: white;
+  padding-top: 3rem;
+}
+
+.button1{
+  height: 2.5rem;
+  width: 9rem;
+  background-color: rgba(240, 248, 255, 0.234);
+  border: none;
+  color: white;
+  border-radius: 2rem;
+}
+
+.button1:hover{
+  background-color: white;
+  color: #5fcf80;
+}
+
+.button-div{
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.box-2{
+  height: 19rem;
+  width: 15rem;
+  /* border: 1px solid black; */
+  box-shadow: 0.5px 0.5px 0.5px 0.5px;
+}
+
+.font{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 2rem;
+  background-color: rgba(76, 89, 101, 0.127);
+  margin-left: 5.5rem;
+  margin-top: 2rem;
+}
+
+
+
+.bx{
+  text-align: center;
+  align-items: center;
+  font-size: 2rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  justify-self: center;
+  color: #5fcf80;
+}
+
+.box-2-h3{
+  color: rgba(0, 0, 0, 0.834);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.box-2-p{
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.section{
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  height: 27rem;
+  width: 100%;
+  padding-top: 1.5rem;
+}
+
+.section2{
+  display: flex;
+  margin-top: 2.8rem;
+  gap: 1.5rem;
+}
+
+
+@media (max-width: 1183px) {
+  .section2{
+      flex-direction: column;
+      margin-top: 1rem;
+      gap: 1.5rem;
+  }
+
+  .section{
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      height: 100%;
+      width: 100%;
+      padding-top: 1.5rem;
+  }
+
+  .box-2{
+      height: 15rem;
+      width: 600px;
+      box-shadow: 0.5px 0.5px 0.5px 0.5px;
+  }
+
+  .box-1{
+      height: 700px;
+      width: 20rem;
+      border-radius: 5px;
+      background-color: #5fcf80;
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+}
+
+
+
+@media (max-width: 1399px) {
+  .box-2{
+      height: 19rem;
+      width: 600px;
+      box-shadow: 0.5px 0.5px 0.5px 0.5px;
+  }
+
+  .box-1{
+      height: 980px;
+      width: 20rem;
+      border-radius: 5px;
+      background-color: #5fcf80;
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+
+  .section2{
+      flex-direction: column;
+      margin-top: 1rem;
+      gap: 1.5rem;
+  }
+
+  .section{
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      height: 100%;
+      width: 100%;
+      padding-top: 1.5rem;
+  }
+}
+
+
+@media (max-width: 980px) {
+  .section{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+      height: 100%;
+      width: 100%;
+      padding-top: 1.5rem;
+  }
+
+  .box-1{
+      height: 19rem;
+      width: 600px;
+      border-radius: 5px;
+      background-color: #5fcf80;
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+}
+
+
+@media (max-width: 741px) {
+  .section{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+      height: 100%;
+      width: 100%;
+      padding-top: 1.5rem;
+  }
+
+  .box-1{
+      height: 19rem;
+      width: 500px;
+      border-radius: 5px;
+      background-color: #5fcf80;
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+
+  .box-2{
+      height: 19rem;
+      width: 500px;
+      box-shadow: 0.5px 0.5px 0.5px 0.5px;
+  }
+}
+
+@media (max-width: 580px) {
+  .section{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 1.5rem;
+      height: 100%;
+      width: 100%;
+      padding-top: 1.5rem;
+  }
+
+  .box-1{
+      height: 23rem;
+      width: 300px;
+      border-radius: 5px;
+      background-color: #5fcf80;
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+
+  .box-2{
+      height: 19rem;
+      width: 300px;
+      box-shadow: 0.5px 0.5px 0.5px 0.5px;
+  }
+}
+
 /* CARDS SECTION ENDS HERE */
 
 /* BOXES SECTION STARTS HERE */
