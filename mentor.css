@@ -398,6 +398,11 @@ font-size: 15.5px;
   border: 1px solid rgba(0, 0, 0, 0.096);
   border-radius: 5px;
   padding: 0rem 1rem;
+  transition: all .3s ease-in-out;
+}
+
+.box-2:hover{
+  transform: translateY(-10px);
 }
 
 .font{
@@ -515,13 +520,19 @@ font-size: 15.5px;
    border: 1px solid rgba(0, 0, 0, 0.187);
    padding: 1rem .5rem;
    margin: 1rem 0rem;
-   transition: all .5s ease-in-out;
+   transition: all .4s ease-in-out;
+   border-radius: 2px;
 }
 
 .generaldiv .flex:hover{
    cursor: pointer;
    border: 1px solid var(--green);
    color: var(--green);
+}
+
+.cardSectionText{
+ font-weight: 600;
+ opacity: .8;
 }
 
 .sharp{
