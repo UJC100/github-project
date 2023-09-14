@@ -16,8 +16,12 @@
   </head>
   <body>
     <script>
-      AOS.init();
+      AOS.init({
+        once: true
+      });
     </script>
+
+    <section class="MentorProjectBody">
     <section class="navHero">
       
     <!-- NAVBAR STARTS HERE -->
@@ -55,7 +59,7 @@
     <!-- NAVBAR ENDS HERE -->
 
       <!-- HERO SECTION STARTS HERE -->
-    <section class="heroLanding container">
+    <section class="heroLanding container" data-aos="zoom-in" data-aos-duration="1500">
         <div class="Hero2">
           <h1>
             Learning Today,
@@ -73,7 +77,7 @@
 
     <!-- ABOUT SECTION STARTS HERE-->
      <section class="container aboutsect">
-            <div class="about" >
+            <div class="about" data-aos="fade-up" data-aos-duration="1500">
                 <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
                 <p class="firstp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <ul>
@@ -83,7 +87,7 @@
                 </ul>
             <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
             </div>
-            <div>
+            <div data-aos="fade-left" data-aos-duration="1500">
                 <img src="./images/GIT about.jpg" class="aboutimg" alt="">
             </div>
     </section>
@@ -91,20 +95,20 @@
 
     <!-- COUNT SECTION STARTS HERE -->
       <section class="mainWrapper">
-        <div class="wrapper">
-            <div>
+        <div class="wrapper" >
+            <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
                 <h1>1232</h1>
                 <p>Students</p>
             </div>
-            <div>
+            <div data-aos="fade-right" data-aos-duration="600">
                 <h1>64</h1>
                 <p>Courses</p>
             </div>
-            <div>
+            <div  data-aos="fade-left" data-aos-duration="600">
                 <h1>42</h1>
                 <p>Events</p>
             </div>
-            <div>
+            <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
                 <h1>15</h1>
                 <p>Trainers</p>
             </div>
@@ -115,7 +119,7 @@
     <!-- DEVELOPERS INFO SECTION STARTS HERE -->
     <section class="container flex">
       <div class="devDiv">
-        <span data-aos="fade-right">
+        <span data-aos="fade-right" data-aos-duration="1500">
               <img
             src="./images/WhatsApp Image 2023-08-10 at 12.14.07 PM.jpeg"
             alt=""
@@ -138,7 +142,7 @@
           </div>
           </span>
   
-        <span data-aos="zoom-in">
+        <span data-aos="fade-up" data-aos-duration="1500">
           <img src="./images/nathan.jpg" alt="" class="devImgs nathan" />
 
           <main class="devText">
@@ -156,7 +160,7 @@
             <div><i class="fa-brands fa-linkedin"></i></div>
           </div>
         </span>
-        <span data-aos="fade-left">
+        <span data-aos="fade-left" data-aos-duration="1500">
           <img
             src="./images/WhatsApp Image 2023-09-13 at 9.56.41 PM.jpeg"
             alt=""
@@ -181,5 +185,25 @@
       </div>
     </section>
     <!-- DEVELOPERS INFO SECTION ENDS HERE -->
+
+    <!-- FOOTER SECTION STARTS HERE -->
+    <section class="container footer">
+      <footer class="mentorFooter">
+      <div class="copyrightDiv">
+        <p><i class="fa-regular fa-copyright"></i> Copyright <strong>Mentor</strong>. All Rights Reserved</p>
+        <p>Designed by <span>Global Relevance 7</span></p>
+      </div>
+      <div class="footerIcons">
+         <div><i class="fa-brands fa-twitter"></i></div>
+         <div><i class="fa-brands fa-facebook"></i></div>
+         <div><i class="fa-brands fa-instagram"></i></div>
+         <div><i class="fa-brands fa-linkedin"></i></div>
+         <div><i class="fa-brands fa-skype"></i></div>
+      </div>
+    </footer>
+    </section>
+    </section>
+    
+    <!-- FOOTER SECTION ENDS HERE -->
   </body>
 </html>

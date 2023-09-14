@@ -8,6 +8,11 @@
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.MentorProjectBody{
+ overflow-x: hidden;
 }
 
 .container{
@@ -355,7 +360,6 @@ font-size: 15.5px;
 
 .devDiv span img{
  width: 100%;
-  
 } 
 
 .chima{
@@ -367,6 +371,7 @@ font-size: 15.5px;
 
 .oto{
   height: 355px;
+ 
 }
 
 .devDiv span{
@@ -466,3 +471,60 @@ font-size: 15.5px;
 
 }
 /* DEVELOPER SECTION ENDS HERE */
+
+/* FOOTER SECTION STARTS HERE */
+.footer{
+   background-color: rgb(238,240,239);
+}
+
+.mentorFooter {
+ display: grid;
+ grid-template-columns: auto auto;
+ align-items: center;
+ padding: 3rem 0rem;
+}
+
+.mentorFooter  p:first-child  {
+  font-size: 14px;
+  padding-bottom: 10px;
+  opacity: .8;
+}
+
+.mentorFooter p {
+  font-size: 12px;
+  opacity: .8;
+}
+
+.mentorFooter p span{
+ color: var(--green);
+}
+
+.mentorFooter .footerIcons{
+ display: flex;
+ justify-content: end;
+ gap: 10px;
+}
+
+.mentorFooter .footerIcons i{
+ font-size: 18px;
+ /* border: 1px solid red; */
+ color: #fff;
+ background-color: var(--green);
+ padding: 9px;
+ border-radius: 50%;
+}
+
+@media screen and (max-width:700px) {
+  .mentorFooter {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.copyrightDiv {
+  text-align: center;
+  padding-bottom: 20px;
+}
+}
+
+/* FOOTER SECTION ENDS HERE */
