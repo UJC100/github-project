@@ -352,12 +352,10 @@ font-size: 15.5px;
 /* CARDS SECTION STARTS HERE */
 
 .box-1{
-  height: 25rem;
-  width: 22rem;
+  /* width: 22rem; */
   border-radius: 5px;
   background-color: #5fcf80;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding: 0rem 1.5rem;
 }
 
 .box-1-h1{
@@ -374,39 +372,46 @@ font-size: 15.5px;
   padding-top: 3rem;
 }
 
-.button1{
-  height: 2.5rem;
-  width: 9rem;
+.button2 {
   background-color: rgba(240, 248, 255, 0.234);
   border: none;
   color: white;
   border-radius: 2rem;
+  padding: 1rem 2rem;
+  transition: all .3s ease-in-out;
 }
 
-.button1:hover{
+.button2:hover{
+  cursor: pointer;
   background-color: white;
   color: #5fcf80;
 }
 
 .button-div{
-  padding-top: 4rem;
+  padding: 2rem 0rem;
   text-align: center;
 }
 
 .box-2{
-  height: 19rem;
+  /* height: 19rem; */
   width: 15rem;
-  /* border: 1px solid black; */
-  box-shadow: 0.5px 0.5px 0.5px 0.5px;
+  border: 1px solid rgba(0, 0, 0, 0.096);
+  border-radius: 5px;
+  padding: 0rem 1rem;
 }
 
 .font{
-  width: 3rem;
-  height: 3rem;
-  border-radius: 2rem;
-  background-color: rgba(76, 89, 101, 0.127);
-  margin-left: 5.5rem;
-  margin-top: 2rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.font i{
+  /* border: 1px solid black; */
+  text-align: center;
+   background-color: rgba(76, 89, 101, 0.048);
+   border-radius: 50%;
+   padding: 15px 15px;
+
 }
 
 
@@ -425,171 +430,65 @@ font-size: 15.5px;
   color: rgba(0, 0, 0, 0.834);
   text-align: center;
   margin-top: 2rem;
+  opacity: .8;
 }
 
 .box-2-p{
   text-align: center;
   margin-top: 2rem;
+  opacity: .8;
 }
 
 .section{
   display: flex;
   justify-content: center;
   gap: 1.5rem;
-  height: 27rem;
+  /* height: 27rem; */
   width: 100%;
-  padding-top: 1.5rem;
+  margin: 3rem 0rem;
 }
 
 .section2{
   display: flex;
-  margin-top: 2.8rem;
+  margin: 2rem 0rem;
   gap: 1.5rem;
 }
 
-
-@media (max-width: 1183px) {
-  .section2{
-      flex-direction: column;
-      margin-top: 1rem;
-      gap: 1.5rem;
-  }
-
-  .section{
-      display: flex;
-      justify-content: center;
-      gap: 1.5rem;
-      height: 100%;
-      width: 100%;
-      padding-top: 1.5rem;
-  }
-
-  .box-2{
-      height: 15rem;
-      width: 600px;
-      box-shadow: 0.5px 0.5px 0.5px 0.5px;
-  }
-
-  .box-1{
-      height: 700px;
-      width: 20rem;
-      border-radius: 5px;
-      background-color: #5fcf80;
-      padding-left: 5px;
-      padding-right: 5px;
-  }
+@media screen and (max-width:1290px) {
+    .section2{
+    flex-direction: column;
+  margin: 2rem 0rem;
+  gap: 1.5rem;
+  /* border: 1px solid red; */
 }
 
-
-
-@media (max-width: 1399px) {
-  .box-2{
-      height: 19rem;
-      width: 600px;
-      box-shadow: 0.5px 0.5px 0.5px 0.5px;
-  }
-
-  .box-1{
-      height: 980px;
-      width: 20rem;
-      border-radius: 5px;
-      background-color: #5fcf80;
-      padding-left: 5px;
-      padding-right: 5px;
-  }
-
-  .section2{
-      flex-direction: column;
-      margin-top: 1rem;
-      gap: 1.5rem;
-  }
-
-  .section{
-      display: flex;
-      justify-content: center;
-      gap: 1.5rem;
-      height: 100%;
-      width: 100%;
-      padding-top: 1.5rem;
-  }
+.box-2{
+  /* height: 19rem; */
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.096);
+  border-radius: 5px;
+  padding: 1rem 1rem;
 }
 
-
-@media (max-width: 980px) {
-  .section{
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 1.5rem;
-      height: 100%;
-      width: 100%;
-      padding-top: 1.5rem;
-  }
-
-  .box-1{
-      height: 19rem;
-      width: 600px;
-      border-radius: 5px;
-      background-color: #5fcf80;
-      padding-left: 5px;
-      padding-right: 5px;
-  }
+.section{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 1.5rem;
+  /* height: 27rem; */
+  width: 100%;
+  margin: 3rem 0rem;
+}
 }
 
-
-@media (max-width: 741px) {
+@media screen and (max-width:1000px) {
   .section{
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 1.5rem;
-      height: 100%;
-      width: 100%;
-      padding-top: 1.5rem;
-  }
-
-  .box-1{
-      height: 19rem;
-      width: 500px;
-      border-radius: 5px;
-      background-color: #5fcf80;
-      padding-left: 5px;
-      padding-right: 5px;
-  }
-
-  .box-2{
-      height: 19rem;
-      width: 500px;
-      box-shadow: 0.5px 0.5px 0.5px 0.5px;
-  }
+  display: grid;
+  grid-template-columns: auto;
+  gap: 1.5rem;
+  /* height: 27rem; */
+  width: 100%;
+  margin: 3rem 0rem;
 }
-
-@media (max-width: 580px) {
-  .section{
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      gap: 1.5rem;
-      height: 100%;
-      width: 100%;
-      padding-top: 1.5rem;
-  }
-
-  .box-1{
-      height: 23rem;
-      width: 300px;
-      border-radius: 5px;
-      background-color: #5fcf80;
-      padding-left: 5px;
-      padding-right: 5px;
-  }
-
-  .box-2{
-      height: 19rem;
-      width: 300px;
-      box-shadow: 0.5px 0.5px 0.5px 0.5px;
-  }
 }
 
 /* CARDS SECTION ENDS HERE */
