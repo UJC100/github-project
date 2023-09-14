@@ -351,6 +351,146 @@ font-size: 15.5px;
 
 /* CARDS SECTION STARTS HERE */
 
+.box-1{
+  /* width: 22rem; */
+  border-radius: 5px;
+  background-color: #5fcf80;
+  padding: 0rem 1.5rem;
+}
+
+.box-1-h1{
+  font-weight: bolder;
+  font-size: 1.8rem;
+  color: white;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.box-1-p{
+  text-align: center;
+  color: white;
+  padding-top: 3rem;
+}
+
+.button2 {
+  background-color: rgba(240, 248, 255, 0.234);
+  border: none;
+  color: white;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  transition: all .3s ease-in-out;
+}
+
+.button2:hover{
+  cursor: pointer;
+  background-color: white;
+  color: #5fcf80;
+}
+
+.button-div{
+  padding: 2rem 0rem;
+  text-align: center;
+}
+
+.box-2{
+  /* height: 19rem; */
+  width: 15rem;
+  border: 1px solid rgba(0, 0, 0, 0.096);
+  border-radius: 5px;
+  padding: 0rem 1rem;
+}
+
+.font{
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.font i{
+  /* border: 1px solid black; */
+  text-align: center;
+   background-color: rgba(76, 89, 101, 0.048);
+   border-radius: 50%;
+   padding: 15px 15px;
+
+}
+
+
+
+.bx{
+  text-align: center;
+  align-items: center;
+  font-size: 2rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  justify-self: center;
+  color: #5fcf80;
+}
+
+.box-2-h3{
+  color: rgba(0, 0, 0, 0.834);
+  text-align: center;
+  margin-top: 2rem;
+  opacity: .8;
+}
+
+.box-2-p{
+  text-align: center;
+  margin-top: 2rem;
+  opacity: .8;
+}
+
+.section{
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  /* height: 27rem; */
+  width: 100%;
+  margin: 3rem 0rem;
+}
+
+.section2{
+  display: flex;
+  margin: 2rem 0rem;
+  gap: 1.5rem;
+}
+
+@media screen and (max-width:1290px) {
+    .section2{
+    flex-direction: column;
+  margin: 2rem 0rem;
+  gap: 1.5rem;
+  /* border: 1px solid red; */
+}
+
+.box-2{
+  /* height: 19rem; */
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.096);
+  border-radius: 5px;
+  padding: 1rem 1rem;
+}
+
+.section{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 1.5rem;
+  /* height: 27rem; */
+  width: 100%;
+  margin: 3rem 0rem;
+}
+}
+
+@media screen and (max-width:1000px) {
+  .section{
+  display: grid;
+  grid-template-columns: auto;
+  gap: 1.5rem;
+  /* height: 27rem; */
+  width: 100%;
+  margin: 3rem 0rem;
+}
+}
+
 /* CARDS SECTION ENDS HERE */
 
 /* BOXES SECTION STARTS HERE */
